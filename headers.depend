@@ -1,0 +1,427 @@
+# depslib dependency file v1.0
+1657159757 source:d:\nds\headers\main.cpp
+	<iostream>
+	"user-flow-control.h"
+
+1657209676 d:\nds\headers\user-flow-control.h
+	<string>
+	<memory>
+	<vector>
+
+1657405602 source:d:\nds\headers\user-flow-control.cpp
+	"user-flow-control.h"
+	"student-flow-control.h"
+	"doctor-flow-control.h"
+	<iostream>
+	<cassert>
+
+1657505822 source:d:\nds\headers\student.cpp
+	"student.h"
+
+1657505780 d:\nds\headers\student.h
+	<string>
+	<vector>
+	<memory>
+	"course.h"
+	"assignment-solution.h"
+	"assignment.h"
+
+1657211163 source:d:\nds\headers\students-manager.cpp
+	"students-manager.h"
+	<iostream>
+	<cassert>
+	<iomanip>
+	<string>
+
+1657211330 d:\nds\headers\students-manager.h
+	<vector>
+	<string>
+	"student.h"
+
+1657505712 d:\nds\headers\student-flow-control.h
+	<string>
+	<memory>
+	<vector>
+	"student.h"
+	"doctor.h"
+
+1657505457 source:d:\nds\headers\student-flow-control.cpp
+	"student-flow-control.h"
+	"students-manager.h"
+	"courses-manager.h"
+	"helper.h"
+	<iostream>
+	<cassert>
+
+1657505014 source:d:\nds\headers\doctor-flow-control.cpp
+	"doctor-flow-control.h"
+	"doctors-manager.h"
+	"courses-manager.h"
+	"assignment.h"
+	"course.h"
+	"helper.h"
+	<iostream>
+	<cassert>
+
+1657508033 d:\nds\headers\doctor-flow-control.h
+	<string>
+	<memory>
+	<vector>
+	"student.h"
+	"doctor.h"
+
+1657246941 d:\nds\headers\doctor.h
+	<string>
+	<memory>
+	<vector>
+	"course.h"
+
+1657506269 d:\nds\headers\doctors-manager.h
+	<string>
+	<vector>
+	<memory>
+	"doctor.h"
+
+1657506317 source:d:\nds\headers\doctors-manager.cpp
+	"doctors-manager.h"
+	<iostream>
+
+1657505379 d:\nds\headers\course.h
+	<string>
+	<vector>
+	<memory>
+
+1657505674 source:d:\nds\headers\courses-manager.cpp
+	"courses-manager.h"
+	"students-manager.h"
+	"doctors-manager.h"
+	<iostream>
+	<cassert>
+	<iomanip>
+	<memory>
+	"assignment.h"
+	"helper.h"
+
+1657312874 d:\nds\headers\courses-manager.h
+	<string>
+	<vector>
+	<memory>
+	"course.h"
+
+1657504938 d:\nds\headers\assignment-solution.h
+	<string>
+	<memory>
+	<vector>
+
+1657307237 source:d:\nds\headers\helper.cpp
+	"helper.h"
+	<iostream>
+	<sstream>
+	<string>
+	<memory>
+	<vector>
+
+1657307198 d:\nds\headers\helper.h
+	<cmath>
+	<cassert>
+	<algorithm>
+	<string>
+	<sstream>
+	<memory>
+	<vector>
+	"course.h"
+
+1657504963 d:\nds\headers\assignment.h
+	<string>
+	<vector>
+	<memory>
+
+1658031891 source:d:\edu\headers\courses-manager.cpp
+	"courses-manager.h"
+	"students-manager.h"
+	"doctors-manager.h"
+	<iostream>
+	<cassert>
+	<iomanip>
+	<memory>
+	"assignment.h"
+	"helper.h"
+
+1658031948 d:\edu\headers\courses-manager.h
+	<string>
+	<vector>
+	<memory>
+	"course.h"
+
+1657505379 d:\edu\headers\course.h
+	<string>
+	<vector>
+	<memory>
+
+1658031741 d:\edu\headers\students-manager.h
+	<vector>
+	<string>
+	"student.h"
+
+1658032709 d:\edu\headers\student.h
+	"course.h"
+	"assignment-solution.h"
+	"assignment.h"
+	<string>
+	<vector>
+	<memory>
+	<tuple>
+	<map>
+
+1657504938 d:\edu\headers\assignment-solution.h
+	<string>
+	<memory>
+	<vector>
+
+1657504963 d:\edu\headers\assignment.h
+	<string>
+	<vector>
+	<memory>
+
+1658031827 d:\edu\headers\doctors-manager.h
+	<string>
+	<vector>
+	<memory>
+	"doctor.h"
+
+1657246941 d:\edu\headers\doctor.h
+	<string>
+	<memory>
+	<vector>
+	"course.h"
+
+1657307198 d:\edu\headers\helper.h
+	<cmath>
+	<cassert>
+	<algorithm>
+	<string>
+	<sstream>
+	<memory>
+	<vector>
+	"course.h"
+
+1658032005 source:d:\edu\headers\doctors-manager.cpp
+	"doctors-manager.h"
+	<iostream>
+	"helper.h"
+
+1657307237 source:d:\edu\headers\helper.cpp
+	"helper.h"
+	<iostream>
+	<sstream>
+	<string>
+	<memory>
+	<vector>
+
+1658032809 source:d:\edu\headers\main.cpp
+	<iostream>
+	"courses-manager.h"
+	"doctors-manager.h"
+	"students-manager.h"
+	"user-flow-control.h"
+
+1657209676 d:\edu\headers\user-flow-control.h
+	<string>
+	<memory>
+	<vector>
+
+1658033220 source:d:\edu\headers\student-flow-control.cpp
+	"student-flow-control.h"
+	"students-manager.h"
+	"courses-manager.h"
+	"helper.h"
+	<iostream>
+	<cassert>
+
+1657505712 d:\edu\headers\student-flow-control.h
+	<string>
+	<memory>
+	<vector>
+	"student.h"
+	"doctor.h"
+
+1658032655 source:d:\edu\headers\student.cpp
+	"student.h"
+
+1658032037 source:d:\edu\headers\students-manager.cpp
+	"students-manager.h"
+	"helper.h"
+	<iostream>
+	<cassert>
+	<iomanip>
+	<string>
+
+1657405602 source:d:\edu\headers\user-flow-control.cpp
+	"user-flow-control.h"
+	"student-flow-control.h"
+	"doctor-flow-control.h"
+	<iostream>
+	<cassert>
+
+1657958701 d:\edu\headers\doctor-flow-control.h
+	<string>
+	<memory>
+	<vector>
+	"student.h"
+	"doctor.h"
+
+1658033476 source:d:\edu\headers\doctor-flow-control.cpp
+	"doctor-flow-control.h"
+	"doctors-manager.h"
+	"courses-manager.h"
+	"assignment.h"
+	"course.h"
+	"helper.h"
+	<iostream>
+	<cassert>
+
+1658031891 source:d:\ems-project\ems-project\courses-manager.cpp
+	"courses-manager.h"
+	"students-manager.h"
+	"doctors-manager.h"
+	<iostream>
+	<cassert>
+	<iomanip>
+	<memory>
+	"assignment.h"
+	"helper.h"
+
+1658031948 d:\ems-project\ems-project\courses-manager.h
+	<string>
+	<vector>
+	<memory>
+	"course.h"
+
+1657505379 d:\ems-project\ems-project\course.h
+	<string>
+	<vector>
+	<memory>
+
+1658031741 d:\ems-project\ems-project\students-manager.h
+	<vector>
+	<string>
+	"student.h"
+
+1658032709 d:\ems-project\ems-project\student.h
+	"course.h"
+	"assignment-solution.h"
+	"assignment.h"
+	<string>
+	<vector>
+	<memory>
+	<tuple>
+	<map>
+
+1657504938 d:\ems-project\ems-project\assignment-solution.h
+	<string>
+	<memory>
+	<vector>
+
+1657504963 d:\ems-project\ems-project\assignment.h
+	<string>
+	<vector>
+	<memory>
+
+1658031827 d:\ems-project\ems-project\doctors-manager.h
+	<string>
+	<vector>
+	<memory>
+	"doctor.h"
+
+1657246941 d:\ems-project\ems-project\doctor.h
+	<string>
+	<memory>
+	<vector>
+	"course.h"
+
+1657307198 d:\ems-project\ems-project\helper.h
+	<cmath>
+	<cassert>
+	<algorithm>
+	<string>
+	<sstream>
+	<memory>
+	<vector>
+	"course.h"
+
+1658033476 source:d:\ems-project\ems-project\doctor-flow-control.cpp
+	"doctor-flow-control.h"
+	"doctors-manager.h"
+	"courses-manager.h"
+	"assignment.h"
+	"course.h"
+	"helper.h"
+	<iostream>
+	<cassert>
+
+1657958701 d:\ems-project\ems-project\doctor-flow-control.h
+	<string>
+	<memory>
+	<vector>
+	"student.h"
+	"doctor.h"
+
+1658032005 source:d:\ems-project\ems-project\doctors-manager.cpp
+	"doctors-manager.h"
+	<iostream>
+	"helper.h"
+
+1657307237 source:d:\ems-project\ems-project\helper.cpp
+	"helper.h"
+	<iostream>
+	<sstream>
+	<string>
+	<memory>
+	<vector>
+
+1658032809 source:d:\ems-project\ems-project\main.cpp
+	<iostream>
+	"courses-manager.h"
+	"doctors-manager.h"
+	"students-manager.h"
+	"user-flow-control.h"
+
+1657209676 d:\ems-project\ems-project\user-flow-control.h
+	<string>
+	<memory>
+	<vector>
+
+1658033220 source:d:\ems-project\ems-project\student-flow-control.cpp
+	"student-flow-control.h"
+	"students-manager.h"
+	"courses-manager.h"
+	"helper.h"
+	<iostream>
+	<cassert>
+
+1657505712 d:\ems-project\ems-project\student-flow-control.h
+	<string>
+	<memory>
+	<vector>
+	"student.h"
+	"doctor.h"
+
+1658032655 source:d:\ems-project\ems-project\student.cpp
+	"student.h"
+
+1658032037 source:d:\ems-project\ems-project\students-manager.cpp
+	"students-manager.h"
+	"helper.h"
+	<iostream>
+	<cassert>
+	<iomanip>
+	<string>
+
+1658033753 source:d:\ems-project\ems-project\user-flow-control.cpp
+	"user-flow-control.h"
+	"student-flow-control.h"
+	"doctor-flow-control.h"
+	<iostream>
+	<cassert>
+	"helper.h"
+
