@@ -25,6 +25,9 @@ void GenerateRandomData() {
 int main() {
 GenerateRandomData();
 
+
+//you can uncomment the following lines so that you can show the added dummy data when you run the System..
+
 //	Faculty::gStudentsManager->ShowStudents();
 //	Faculty::gDoctorsManager->ShowDoctors();
 //	Faculty::gCoursesManager->ShowCourses();
